@@ -4,7 +4,7 @@ import { aboutData, SectionId } from '../../data/data';
 import Section from '../Layout/Section';
 
 const About: FC = memo(() => {
-  const { description } = aboutData;
+  const {description} = aboutData;
   return (
     <Section className="bg-neutral-800 w-full" sectionId={SectionId.About}>
       <div className="flex flex-col gap-y-2">
